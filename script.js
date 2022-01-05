@@ -62,8 +62,8 @@ btn.onclick = function() {
         let now = post_Data(form)
         now.then(data => {
             console.log(data);
-            show("Success", "success")
         })
+        show("Success", "success")
     } else {
         show("Not", "danger")
     }
